@@ -1,0 +1,49 @@
+body {
+ background:orange; 
+}
+header{
+  background: url(images/tictactoe.jpg) top left;
+  min-height:250px;
+  height: 300px;
+  margin-bottom: 20px;
+  color:white;
+  text-align:center;
+}
+/*header h1 {
+  font-size:4em;
+  padding-top:100px;
+}*/
+header small.tag{
+  margin-top:50px;
+}
+.col-md-12 footer{
+  background-color:black;
+  color: white;
+  margin-top:10px;
+  text-align: center;
+}
+.container {
+  /*width:960px;*/
+  background:white;
+  /*padding:0 .5em;*/
+  
+}
+.col-xs-4.row1, .col-xs-4.row2, .col-xs-4.row3 {
+    height: 150px;
+    border: 1px solid;
+}
+/*.col-md-4.row1, .col-md-4.row2, .col-md-4.row3 {
+    height: 180px;
+    border: 1px solid;
+    /* margin-left: 5px; */
+}*/
+#game {
+  margin-left:5px;
+  min-width: 320px;
+}
+
+.box {
+  text-align: center;
+  font-size:8em;
+
+}
